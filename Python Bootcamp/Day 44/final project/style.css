@@ -1,0 +1,26 @@
+    /* Write your CSS code here */
+body {
+  background-color:black;
+    }
+
+
+#abc {
+    border: 5px white solid;
+    }
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+.poster{
+width: 50%;
+margin-left: 25%;
+margin-top: 25px;
+color: white;
+text-align: center;
+font-family:"Libre Baskerville", serif;
+
+}
