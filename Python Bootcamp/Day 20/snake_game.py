@@ -44,15 +44,17 @@ while game_is_on:
         food.refresh()
 
     if snaky.head.xcor() > 290 or snaky.head.xcor() < -290 or snaky.head.ycor() > 290 or snaky.head.ycor() < -290:
-        score.game_over()
-        game_is_on = False
+        score.reset()
+        snaky.reset_snake()
+
 
     for seg in snaky.segments:
         if seg == snaky.head:
             pass
         elif snaky.head.distance(seg) < 10:
-            score.game_over()
-            game_is_on = False
+            score.reset()
+            snaky.reset_snake()
+
 
 
 
